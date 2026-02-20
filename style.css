@@ -9,6 +9,12 @@ body{
     align-items: center;
 }
 
+@media(max-width: 768px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+
 .nv-left{
     color: #f1f5f9;
     padding: 36px;
@@ -46,6 +52,12 @@ ul{
  gap:36px;
 }
 
+@media(max-width: 768px){
+    .hero{
+        flex-direction: column;
+    }
+}
+
 .header{
     font-size: 92px;
     font-weight: 1000;
@@ -80,10 +92,17 @@ a.but-link:hover{
 }
 
 .card{
+    display: flex;
     background-color: #0f172a;
     color: white;
     justify-content: center;
     align-items: center;
+}
+
+@media(max-width: 768px){
+    .card{
+        flex-direction: column;
+    }
 }
 
 .cards{
@@ -133,6 +152,16 @@ a.but-link:hover{
     align-items: center;
     color: #f1f5f9;
     justify-content: center; 
+}
+
+.footer{
+    display: flex;
+}
+
+@media(max-width: 768px){
+    .footer{
+        flex-direction: column;
+    }
 }
 
 a.footer-link{
