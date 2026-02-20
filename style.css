@@ -1,0 +1,155 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: #0f172a;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nv-left{
+    color: #f1f5f9;
+    padding: 36px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #808181;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 36px;
+}
+
+.hero{
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap:36px;
+}
+
+.header{
+    font-size: 92px;
+    font-weight: 1000;
+    flex-wrap: wrap;
+    max-width: 600px;
+    padding: 16px;
+}
+
+.para{
+    max-width: 600px;
+    font-size: 24px;
+    color: #808181;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+button{
+    background-color: aqua;
+    height: 200px;
+}
+
+.but-link{
+    padding: 52px;
+    font-size: 32px;
+    margin: 52px;
+    color: black;
+}
+
+a.but-link:hover{
+    color: rgb(180, 0, 0);
+    text-decoration: underline;
+}
+
+.card{
+    background-color: #0f172a;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 32px;
+}
+
+.card-one, .card-two, .card-three{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    align-items: center;
+    padding: 48px;
+    gap: 16px;
+}
+
+.one-head, .two-head, .three-head{
+    font-weight: 900;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 24px;
+}
+
+.column-one, .column-three{
+    display: flex;
+    flex-direction: column;
+    background-color: #808181;
+    border: 2px solid black;
+    padding: 24px;
+    align-items: center;
+    color: #f1f5f9;
+    justify-content: center;
+    gap: 16px;
+}
+
+.column-two{
+   display: flex;
+    background-color: #808181;
+    border: 2px solid black;
+    padding: 24px;
+    align-items: center;
+    color: #f1f5f9;
+    justify-content: center; 
+}
+
+a.footer-link{
+    display: flex;
+    color: #f1f5f9;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a.footer-link:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.one-col, .two-col, .three-col{
+    font-size: 24px;
+    font-weight: 900;
+}
+
