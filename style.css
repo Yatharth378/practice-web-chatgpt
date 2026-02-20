@@ -66,6 +66,12 @@ ul{
     padding: 16px;
 }
 
+@media(max-width:768px){
+    .header{
+        font-size: 48px;
+    }
+}
+
 .para{
     max-width: 600px;
     font-size: 24px;
