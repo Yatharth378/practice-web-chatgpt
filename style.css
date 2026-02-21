@@ -118,6 +118,10 @@ a.but-link:hover{
     padding: 32px;
 }
 
+@media(max-width: 768px){
+    .cards{flex-direction: column;}
+}
+
 .card-one, .card-two, .card-three{
     display: flex;
     flex-direction: column;
